@@ -1,2 +1,2 @@
 # rsschool-cv
-[https://MiniKrishna.github.io/rsschool-cv/cv](Max Romaneko CV)
+ [Max Romaneko CV](https://MiniKrishna.github.io/rsschool-cv/cv)
