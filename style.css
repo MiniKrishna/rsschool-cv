@@ -1,0 +1,61 @@
+body {
+    font-family: Raleway;
+    font-size: 18pt;
+}
+
+
+header {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: solid 2px black;
+}
+
+.name {
+   display: inline-block; 
+   text-align: center;
+   width: 100%;
+   min-height: 100%;
+   margin: auto 0px;
+}
+
+
+h1{
+    font-weight: 900;
+    font-size: 36pt;
+}
+
+h3 {
+    color: #3DD2CC;
+}
+
+h2 {
+    color: #195452;
+    margin-block-start: 1em;
+    margin-block-end: 0.4em;
+
+}
+
+p {
+    margin-block-start: 0.4em;
+    margin-block-end: 1.5em;
+}
+
+main{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.my_photo {
+    --photo-size: 200px;
+    width: var(--photo-size);
+    height: var(--photo-size);
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.icon {
+    --photo-size: 20px;
+    width: var(--photo-size);
+    height: var(--photo-size);
+    filter: invert(86%) sepia(83%) saturate(4506%) hue-rotate(130deg) brightness(92%) contrast(76%);
+}
